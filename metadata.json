@@ -1,5 +1,5 @@
 {
-  "name": "Ivoire Prestige Immobilier",
-  "description": "Agence immobilière de luxe en Côte d'Ivoire. Vente, location et gestion de biens d'exception à Abidjan et environs.",
+  "name": "Agence Immobilière La Foi (A.I.F)",
+  "description": "Expert en immobilier à Abidjan Koumassi. Location, vente, gestion et conseil. Trouvez votre studio, appartement ou maison facilement.",
   "requestFramePermissions": ["geolocation"]
 }

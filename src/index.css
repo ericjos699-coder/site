@@ -3,8 +3,9 @@
 
 @theme {
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --color-primary: #0f172a; /* Navy Blue */
-  --color-accent: #c5a059;  /* Elegant Gold */
+  --color-primary: #1e3a8a; /* Dark Blue */
+  --color-accent: #d4af37;  /* Gold */
+  --color-success: #10b981; /* Green for WhatsApp */
   --color-secondary: #64748b; /* Slate Grey */
 }
 

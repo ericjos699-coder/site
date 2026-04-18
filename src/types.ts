@@ -5,7 +5,7 @@ export interface Property {
   price: number;
   location: string;
   city: string;
-  type: 'maison' | 'appartement' | 'terrain' | 'villa';
+  type: 'chambre' | 'studio' | 'appartement' | 'maison' | 'villa' | 'terrain';
   status: 'vente' | 'location';
   bedrooms?: number;
   bathrooms?: number;
@@ -17,6 +17,7 @@ export interface Property {
     phone: string;
     image: string;
   };
+  isFeatured?: boolean;
 }
 
-export type View = 'home' | 'properties' | 'detail' | 'about' | 'services' | 'contact';
+export type View = 'home' | 'properties' | 'detail' | 'about' | 'services' | 'contact' | 'appointment' | 'payment';

@@ -3,55 +3,102 @@ import { Property } from './types';
 export const PROPERTIES: Property[] = [
   {
     id: '1',
-    title: 'Villa de Luxe avec Piscine',
-    description: 'Une magnifique villa située dans le quartier prisé de Cocody Ambassades. Finitions haut de gamme, grand jardin et piscine à débordement.',
-    price: 450000000,
-    location: 'Cocody Ambassades',
+    title: 'Studio Moderne Proche In’challah',
+    description: 'Magnifique studio américain situé à Koumassi, à deux pas du terrain In’challah. Proche des transports et des commerces. Idéal pour jeune travailleur ou étudiant.',
+    price: 130000,
+    location: 'Koumassi Terrain In’challah',
     city: 'Abidjan',
-    type: 'villa',
-    status: 'vente',
-    bedrooms: 5,
-    bathrooms: 4,
-    area: 450,
+    type: 'studio',
+    status: 'location',
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 35,
     images: [
-      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1000',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000'
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000',
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000'
     ],
-    features: ['Piscine', 'Garage', 'Sécurité 24/7', 'Jardin', 'Climatisation'],
+    features: ['Douche interne', 'Cuisine équipée', 'Balcon', 'Sécurisé'],
     agent: {
-      name: 'Jean-Marc Koffi',
-      phone: '+2250707070707',
+      name: 'Agent A.I.F',
+      phone: '+2250708536904',
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200'
-    }
+    },
+    isFeatured: true
   },
   {
     id: '2',
-    title: 'Appartement Moderne Plateau',
-    description: 'Appartement de standing au cœur du Plateau. Vue imprenable sur la lagune Ébrié. Idéal pour investissement ou pied-à-terre.',
-    price: 1200000,
-    location: 'Plateau',
+    title: 'Chambre Autonome Étudiant',
+    description: 'Chambre autonome propre située à Koumassi, zone Terrain In’challah. Calme, accès facile. Parfait pour un étudiant.',
+    price: 70000,
+    location: 'Koumassi Terrain In’challah',
+    city: 'Abidjan',
+    type: 'chambre',
+    status: 'location',
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 20,
+    images: [
+      'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&q=80&w=1000'
+    ],
+    features: ['Douche interne', 'Entrée indépendante', 'Compteur CIE/SODECI'],
+    agent: {
+      name: 'Agent A.I.F',
+      phone: '+2250505410916',
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200'
+    },
+    isFeatured: true
+  },
+  {
+    id: '3',
+    title: 'Appartement 3 Pièces Standing',
+    description: 'Bel appartement de 3 pièces à Koumassi Remblais. Grand salon, chambres spacieuses, cuisine moderne.',
+    price: 250000,
+    location: 'Koumassi Remblais',
     city: 'Abidjan',
     type: 'appartement',
     status: 'location',
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 85,
+    images: [
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1000'
+    ],
+    features: ['Parking', 'Balcon', 'Placards', 'Zone bitumée'],
+    agent: {
+      name: 'Agent A.I.F',
+      phone: '+2250708536904',
+      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200'
+    },
+    isFeatured: true
+  },
+  {
+    id: '4',
+    title: 'Maison Basse 4 Pièces',
+    description: 'Maison basse de 4 pièces située à Koumassi Nord-Est. Cour avant et arrière, garage disponible.',
+    price: 45000000,
+    location: 'Koumassi Nord-Est',
+    city: 'Abidjan',
+    type: 'maison',
+    status: 'vente',
     bedrooms: 3,
     bathrooms: 2,
-    area: 120,
+    area: 250,
     images: [
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000'
+      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1000'
     ],
-    features: ['Ascenseur', 'Balcon', 'Parking', 'Cuisine équipée'],
+    features: ['Garage', 'Cour', 'ACD disponible'],
     agent: {
-      name: 'Marie Koné',
-      phone: '+2250505050505',
+      name: 'Agent A.I.F',
+      phone: '+2250505410916',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200'
     }
   },
   {
-    id: '3',
-    title: 'Terrain Constructible Bingerville',
-    description: 'Beau terrain plat de 500m² situé dans une zone en plein développement à Bingerville. ACD disponible.',
-    price: 25000000,
-    location: 'Bingerville',
+    id: '5',
+    title: 'Terrain Constructible 500m²',
+    description: 'Terrain de 500m² avec ACD à Koumassi. Emplacement stratégique pour projet immobilier.',
+    price: 35000000,
+    location: 'Koumassi',
     city: 'Abidjan',
     type: 'terrain',
     status: 'vente',
@@ -61,31 +108,9 @@ export const PROPERTIES: Property[] = [
     ],
     features: ['ACD', 'Zone viabilisée', 'Accès facile'],
     agent: {
-      name: 'Jean-Marc Koffi',
-      phone: '+2250707070707',
+      name: 'Agent A.I.F',
+      phone: '+2250708536904',
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200'
-    }
-  },
-  {
-    id: '4',
-    title: 'Maison Basse Riviera Palmeraie',
-    description: 'Charmante maison basse de 4 pièces située à la Riviera Palmeraie. Quartier calme et sécurisé.',
-    price: 85000000,
-    location: 'Riviera Palmeraie',
-    city: 'Abidjan',
-    type: 'maison',
-    status: 'vente',
-    bedrooms: 3,
-    bathrooms: 2,
-    area: 200,
-    images: [
-      'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1000'
-    ],
-    features: ['Cour avant', 'Garage', 'Clôture'],
-    agent: {
-      name: 'Marie Koné',
-      phone: '+2250505050505',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200'
     }
   }
 ];
